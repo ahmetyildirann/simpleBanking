@@ -5,7 +5,7 @@ Bu projede, herhangi sayıda işlemi işleyebilen, banka hesaplarını yönetebi
 
 ## Özellikler
 
-- **Banka Hesabı Yönetim :** Hesap sahibinin adını, hesap numarasını ve hesabın bakiyesini korur.
+- **Banka Hesabı Yönetim :** Hesap sahibinin adını, hesap numarasını ve hesabın bakiyesini kayıt eder.
 - **Hesap İşlemleri :**  Kredi ve borç işlemleri için endpoint'ler sağlar. 
 ## Teknolojiler
 - **Spring Boot:**
