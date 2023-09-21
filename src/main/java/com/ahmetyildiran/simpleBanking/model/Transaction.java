@@ -15,13 +15,21 @@ public class Transaction {
     @Id
     @GeneratedValue
     private Long id;
+
+    @Column(name = "type", length = 100, nullable = false)
     private String type;
+
+    @Column(name = "date", length = 100, nullable = false)
     private Date date;
+
+    @Column(name = "amount", length = 100, nullable = false)
     private double amount;
+
+    @Column(name = "approval_code", length = 100, nullable = false)
     private String approvalCode;
 
     @ManyToOne
-    @JoinColumn(name = "account_id")
+    @JoinColumn(name = "account_id", referencedColumnName = "acc_id", nullable = false)
     private BankAccount bankAccount;
 
 }
